@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KIBERone — Домашняя страница</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow glow-left"></div>
+  <div class="page-glow glow-right"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark">K<span>1</span>BER<br><b>ONE</b></div>
+      <span>KIBERone</span>
+    </div>
+    <button class="icon-button" aria-label="Настройки">⚙</button>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">KIBERone • coding school</p>
+      <h1>Привет, программист! <span>👋</span></h1>
+      <p class="subtitle">Всё нужное для занятия — в одном месте.</p>
+
+      <form class="search glass" id="searchForm">
+        <span class="search-icon">⌕</span>
+        <input id="searchInput" type="search" placeholder="Что будем искать?" autocomplete="off">
+        <button type="submit">Искать</button>
+      </form>
+    </section>
+
+    <section class="tools-section">
+      <div class="section-heading">
+        <div class="accent-line"></div>
+        <h2>Полезные инструменты</h2>
+      </div>
+
+      <div class="tools-grid" id="toolsGrid"></div>
+    </section>
+
+    <section class="bottom-area">
+      <div class="mascot-placeholder glass">
+        <div class="mascot-circle">🐻</div>
+        <div>
+          <span class="small-label">KIBERone</span>
+          <h3>Твой цифровой помощник</h3>
+          <p>Здесь позже появится фирменный мишка школы.</p>
+        </div>
+      </div>
+
+      <div class="countdown glass">
+        <span class="countdown-icon">✦</span>
+        <div>
+          <span class="small-label">До Нового года</span>
+          <strong id="countdownNumber">—</strong>
+          <span>дней</span>
+        </div>
+        <span class="snowflake">✧</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>KIBERone</span>
+    <span>Учись • Создавай • Программируй</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
